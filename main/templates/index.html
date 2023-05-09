@@ -14,15 +14,20 @@
         <label for="length">密碼長度</label>
         <select name="length" id="length">
             <option value="6">6</option>
-            <option value="6">7</option>
-            <option value="6">8</option>
-            <option value="6">9</option>
-            <option value="6">10</option>
+            <option value="7">7</option>
+            <option value="8" selected="selected">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
         </select>
         <label for="input-length">自定義長度</label>
         <input type="number" name="input-length" id="input-length"><br>
-        <input type="submit" value="產生" name="generator">
-        <input type="reset" value="重置">
+        <input type="checkbox" name="uppercase" id="uppercase">大寫
+        <input type="checkbox" name="number" id="number">數字
+        <input type="checkbox" name="special" id="special">特殊符號
+        <p>
+            <input type="submit" value="產生" name="generator">
+            <input type="reset" value="重置">
+        </p>
     </form>
 </body>
 
